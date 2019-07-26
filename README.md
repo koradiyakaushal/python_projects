@@ -1,4 +1,4 @@
-## python_projects
+# python_projects
 Here are a few project ideas listed below which you can try, I will try to keep the list updated:
 
 # Numbers
