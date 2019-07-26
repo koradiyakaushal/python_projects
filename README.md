@@ -1,7 +1,7 @@
 ## python_projects
 Here are a few project ideas listed below which you can try, I will try to keep the list updated:
 
-#Numbers
+# Numbers
 
 Find PI to the Nth Digit - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
@@ -47,7 +47,7 @@ Limit Calculator - Ask the user to enter f(x) and the limit value, then return t
 
 Fast Exponentiation - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
 
-#Classic Algorithms
+# Classic Algorithms
 
 Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
 
@@ -57,7 +57,7 @@ Closest pair problem - The closest pair of points problem or closest pair proble
 
 Sieve of Eratosthenes - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-#Graph
+# Graph
 
 Graph from links - Create a program that will create a graph or network from a series of links.
 
@@ -69,11 +69,11 @@ Dijkstra’s Algorithm - Create a program that finds the shortest path through a
 
 Minimum Spanning Tree - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
 
-#Data Structures
+# Data Structures
 
 Inverted index - An Inverted Index is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
-#Text
+# Text
 
 Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
@@ -99,7 +99,7 @@ Vigenere / Vernam / Ceasar Ciphers - Functions for encrypting and decrypting dat
 
 Regex Query Tool - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
-#Networking
+# Networking
 
 FTP Program - A file transfer program which can transfer files back and forth from a remote web sever.
 
@@ -115,7 +115,7 @@ Whois Search Tool - Enter an IP or host address and have it look it up through w
 
 Site Checker with Time Scheduling - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
 
-#Classes
+# Classes
 
 Product Inventory Project - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
 
@@ -137,13 +137,13 @@ Flower Shop Ordering To Go - Create a flower shop application which deals in flo
 
 Family Tree Creator - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
-#Threading
+# Threading
 
 Create A Progress Bar for Downloads - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
 Bulk Thumbnail Creator - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
-#Web
+# Web
 
 Page Scraper - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.
 
@@ -163,7 +163,7 @@ Web Board (Forum) - Create a forum for you and your buddies to post, administer 
 
 CAPTCHA Maker - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
-#Files
+# Files
 
 Quiz Maker - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 
@@ -177,7 +177,7 @@ Mp3 Tagger - Modify and add ID3v1 tags to MP3 files. See if you can also add in 
 
 Code Snippet Manager - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. Optional: For extra practice try adding syntax highlighting based on the language.
 
-#Databases
+# Databases
 
 SQL Query Analyzer - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
 
@@ -193,7 +193,7 @@ TV Show Tracker - Got a favorite show you don’t want to miss? Don’t have a P
 
 Travel Planner System - Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
 
-#Graphics and Multimedia
+# Graphics and Multimedia
 
 Slide Show - Make an application that shows various pictures in a slide show format. Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.
 
@@ -207,6 +207,6 @@ Turtle Graphics - This is a common project where you create a floor of 20 x 20 s
 
 GIF Creator A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. Optional: Make the program convert small video files to GIFs as well.
 
-#Security
+# Security
 
 Caesar cipher - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
